@@ -1,0 +1,18 @@
+{
+  "name": "zerk-marketplace",
+  "owner": {
+    "name": "zerk"
+  },
+  "plugins": [
+    {
+      "name": "chroma",
+      "source": "./plugins/chroma",
+      "description": "Chroma RAG MCP"
+    },
+    {
+      "name": "metals",
+      "source": "./plugins/metals",
+      "description": "Metals LSP MCP"
+    }
+  ]
+}

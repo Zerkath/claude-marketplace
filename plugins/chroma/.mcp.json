@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "local": {
+      "command": "uvx",
+      "args": [
+        "chroma-mcp",
+        "--client-type",
+        "http",
+        "--host",
+        "localhost",
+        "--port",
+        "30190",
+        "--ssl",
+        "false"
+      ]
+    }
+  }
+}
